@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "316576488426",
+    "firebase_url": "https://financialhome-a9493.firebaseio.com",
+    "project_id": "financialhome-a9493",
+    "storage_bucket": "financialhome-a9493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316576488426:android:af679ae01ccbc6da",
+        "android_client_info": {
+          "package_name": "com.jhonny.financialhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316576488426-36ger32b3qnv0hqbh7v3g1701eqs0tbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jhonny.financialhome",
+            "certificate_hash": "617c543c7cd686f4907920c3cb3001266d5d0e01"
+          }
+        },
+        {
+          "client_id": "316576488426-ojet9m82np6oaf9m934vtoqjv47k5f02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg_mw_hopr5elL0r-t9Be6XR2Lv6xh3IA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316576488426-7a7m24c1c7koi042683kgmv4j57l7c5u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "teste"
+              }
+            },
+            {
+              "client_id": "316576488426-ojet9m82np6oaf9m934vtoqjv47k5f02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
