@@ -9,6 +9,7 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorAccent"
@@ -17,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Custo"
+            android:text="@string/preco"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"/>
 
@@ -37,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-            android:text="Local"
+            android:text="@string/local"
              />
         <EditText
             android:id="@+id/localET"
@@ -53,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-            android:text="Obs"
+            android:text="@string/obs"
             />
         <EditText
             android:id="@+id/obsET"
@@ -70,10 +71,11 @@
             android:onClick="showDataDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Data"
+            android:text="@string/data"
             android:gravity="left|center_vertical"
             android:background="@android:color/transparent"
             android:drawableRight="@drawable/ic_arrow"
+            android:drawableEnd="@drawable/ic_arrow"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"/>
     </LinearLayout>
